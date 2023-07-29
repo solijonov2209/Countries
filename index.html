@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Countries</title>
+</head>
+<body>
+  <!-- Start header  -->
+  <header class="site-header">
+    <div class="container">
+      <div class="site-header__inner">
+        <a class="site-header__logo-link" href="./index.html">
+          <img class="site-header__logo" src="./images/logo.svg" width="234" height="33" alt="Site logo">
+        </a>  
+        <button class="site-header__btn" type="button">Dark Mode</button>
+      </div>
+    </div>
+  </header>
+  <!-- Finish header  -->
+  <!-- Start Main  -->
+  <main class="site-main">
+    <section class="hero">
+      <div class="container">
+        <div class="hero__inner">
+          <form  class="hero__form" action="https://echo.htmlacademy.ru/" method="POST">
+            <input class="hero__input" type="search" name="user_search" aria-label="Search for a country…" placeholder="Search for a country…">
+            <select class="hero__select" name="the_continent">
+              <option hidden>Filter by Region</option>
+              <option value="Africa">Africa</option>
+              <option value="America">America</option>
+              <option value="Asia">Asia</option>
+              <option value="Europe">Europe</option>
+              <option value="Oceania">Oceania</option>
+            </select>
+          </form>
+          
+          <ul class="hero__list countries">
+            <li class="countries__item">
+              <a class="countries__link" href="#">
+                <img src="./images/flag-germany.svg" alt="germaniya's flag" width="264" height="160" class="countries-img">
+                <h3 class="countries__title">Germany</h3>
+                <ul class="countries__list content content">
+                  <li class="content__item">
+                    <p class="content__desc"><strong>Population:</strong> 81,770,900</p>
+                  </li>
+                  <li class="content__item">
+                    <p class="content__desc"><strong>Region:</strong> Europe</p>
+                  </li>
+                  <li class="content__item">
+                    <p class="content__desc"><strong>Capital:</strong> Berlin</p>
+                  </li>
+                </ul>
+              </a>
+            </li>
+            <li class="countries__item">
+              <a class="countries__link" href="#">
+                <img src="./images/flag-usa.svg" alt=" USA flag" width="264" height="160" class="countries-img">
+                <h3 class="countries__title">United States of America</h3>
+                <ul class="countries__list content content">
+                  <li class="content__item">
+                    <p class="content__desc"> <strong>Population:</strong> 323,947,000</p>
+                  </li>
+                  <li class="content__item">
+                    <p class="content__desc"> <strong>Region:</strong> Americas</p>
+                  </li>
+                  <li class="content__item">
+                    <p class="content__desc"> <strong>Capital:</strong> Washington, D.C.</p>
+                  </li>
+                </ul>
+              </a>
+            </li>
+            <li class="countries__item">
+              <a class="countries__link" href="#">
+                <img src="./images/flag-brazil.svg" alt="Brazil's flag" width="264" height="160" class="countries-img">
+                <h3 class="countries__title">Brazil</h3>
+                <ul class="countries__list content content">
+                  <li class="content__item">
+                    <p class="content__desc"> <strong>Population:</strong> 206,135,893</p>
+                  </li>
+                  <li class="content__item">
+                    <p class="content__desc"> <strong>Region:</strong> Americas</p>
+                  </li>
+                  <li class="content__item">
+                    <p class="content__desc"> <strong>Capital:</strong> Brasília</p>
+                  </li>
+                </ul>
+              </a>
+            </li>
+            <li class="countries__item">
+              <a class="countries__link" href="#">
+                <img src="./images/iceland.svg" alt="Iceland's flag" width="264" height="160" class="countries-img">
+                <h3 class="countries__title">Iceland</h3>
+                <ul class="countries__list content content">
+                  <li class="content__item">
+                    <p class="content__desc"> <strong>Population:</strong> 334,300</p>
+                  </li>
+                  <li class="content__item">
+                    <p class="content__desc"> <strong>Region:</strong> Europe</p>
+                  </li>
+                  <li class="content__item">
+                    <p class="content__desc"> <strong>Capital:</strong> Reykjavík</p>
+                  </li>
+                </ul>
+              </a>
+            </li>
+            <li class="countries__item">
+              <a class="countries__link" href="#">
+                <img src="./images/afghanistan.svg" alt="Afghanistan's flag" width="264" height="160" class="countries-img">
+                <h3 class="countries__title">Afghanistan</h3>
+                <ul class="countries__list content content">
+                  <li class="content__item">
+                    <p class="content__desc"> <strong>Population:</strong> 27,657,145</p>
+                  </li>
+                  <li class="content__item">
+                    <p class="content__desc"> <strong>Region:</strong> Asia</p>
+                  </li>
+                  <li class="content__item">
+                    <p class="content__desc"> <strong>Capital:</strong> Kabul</p>
+                  </li>
+                </ul>
+              </a>
+            </li>
+            <li class="countries__item">
+              <a class="countries__link" href="#">
+                <img src="./images/aland-iceland.svg" alt=" Aland Iceland's flag" width="264" height="160" class="countries-img">
+                <h3 class="countries__title">Åland Islands</h3>
+                <ul class="countries__list content content">
+                  <li class="content__item">
+                    <p class="content__desc"> <strong>Population:</strong> 28,875</p>
+                  </li>
+                  <li class="content__item">
+                    <p class="content__desc"> <strong>Region:</strong> Europe</p>
+                  </li>
+                  <li class="content__item">
+                    <p class="content__desc"> <strong>Capital:</strong> Mariehamn</p>
+                  </li>
+                </ul>
+              </a>
+            </li>
+            <li class="countries__item">
+              <a class="countries__link" href="#">
+                <img src="./images/albaniya.svg" alt="Albania's flag" width="264" height="160" class="countries-img">
+                <h3 class="countries__title">Albania</h3>
+                <ul class="countries__list content content">
+                  <li class="content__item">
+                    <p class="content__desc"> <strong>Population:</strong> 2,886,026</p>
+                  </li>
+                  <li class="content__item">
+                    <p class="content__desc"> <strong>Region:</strong> Europe</p>
+                  </li>
+                  <li class="content__item">
+                    <p class="content__desc"> <strong>Capital:</strong> Tirana</p>
+                  </li>
+                </ul>
+              </a>
+            </li>
+            <li class="countries__item">
+              <a class="countries__link" href="#">
+                <img src="./images/algeriya.svg" alt="Algeria's flag" width="264" height="160" class="countries-img">
+                <h3 class="countries__title">Algeria</h3>
+                <ul class="countries__list content content">
+                  <li class="content__item">
+                    <p class="content__desc"> <strong>Population:</strong> 40,400,000</p>
+                  </li>
+                  <li class="content__item">
+                    <p class="content__desc"> <strong>Region: </strong>Africa</p>
+                  </li>
+                  <li class="content__item">
+                    <p class="content__desc"> <strong>Capital:</strong> Algiers</p>
+                  </li>
+                </ul>
+              </a>
+            </li>
+            </ul>
+              
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- finish main  -->
+      <!-- javaScript  -->
+      <script src="./script.js"></script>
+    </body>
+    </html>
